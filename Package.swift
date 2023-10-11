@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "JTSImageViewController",
             dependencies: []),
-        .testTarget(
-            name: "JTSImageViewControllerTests",
-            dependencies: ["JTSImageViewController"]),
     ]
 )
